@@ -9,7 +9,7 @@ on:
 
 jobs:
   test-deploy:
-    name: Test deployment
+    name: Test Build for Deployment
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
